@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>chapter11_2</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="chapter11_2_files/libs/clipboard/clipboard.min.js"></script>
+<script src="chapter11_2_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="chapter11_2_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="chapter11_2_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="chapter11_2_files/libs/quarto-html/popper.min.js"></script>
+<script src="chapter11_2_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="chapter11_2_files/libs/quarto-html/anchor.min.js"></script>
+<link href="chapter11_2_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="chapter11_2_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="chapter11_2_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="chapter11_2_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="chapter11_2_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Opioides Parte II</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="orvinois" class="level2">
+<h2 class="anchored" data-anchor-id="orvinois">Orvinois</h2>
+<p>Os orvínóis <a href="#fig-orvinols" class="quarto-xref">Figure&nbsp;1</a> representam uma classe farmacêutica de grande significância, marcada pela descoberta de opioides semissintéticos extraordinariamente potentes derivados da oripavina, um alcaloide natural encontrado na papoula-do-ópio (Papaver somniferum). Esta classe destaca-se pela sua estrutura molecular única, com a característica ponte 6,14-eteno, que impartiu propriedades farmacológicas revolucionárias aos opioides. A nomenclatura “orvinal” ou “orvinol” origina-se da contração de “oripavine” com “morphinan”, refletindo a origem dual destes compostos: derivados semissintéticos de oripavina com o esqueleto estrutural de morfinana. O termo técnico mais preciso é 6,14-eteno-morfinanos, que descreve a ponte etilênica característica.​</p>
+<p>Inovação estrutural dos orvínóis consistiu na introdução de uma ponte etilênica entre as posições 6 e 14 do esqueleto morfinana, criando uma estrutura rígida com uma geometria molecular distinta. Este padrão estrutural de 6,14-eteno-morfinana confere a esses compostos uma afinidade extraordinariamente elevada pelos receptores opioides, frequentemente ultrapassando a potência de opioides clássicos como a morfina.</p>
+<div id="fig-orvinols" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-orvinols-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="orvinols.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-orvinols-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Síntese e Rigidez Conformacional dos Derivados de Oripavina. A reação de Diels-Alder entre a Oripavina (ou Tebaína) e um dienófilo (como metilvinilcetona) introduz uma “ponte” endo-eteno entre as posições C-6 e C-14. Esta modificação cria um sistema de anéis rígido e volumoso (Série de Bentley). A adição subsequente de grupos lipofílicos no álcool terciário resulta em fármacos de altíssima afinidade, como a Etorfina (agonista pleno superpotente) e a Buprenorfina (agonista parcial com grupo N-ciclopropilmetil e ponte t-butila).
+</figcaption>
+</figure>
+</div>
+<p>O marco inaugural da história dos orvínóis ocorreu em 1966, quando John Lewis, trabalhando na empresa farmacêutica britânica Reckitt and Colman (posteriormente Reckitts), sintetizou a <strong>buprenorfina</strong>, o primeiro membro clinicamente significativo desta classe. A buprenorfina foi preparada através de derivatização semissintética da oripavina, adicionando um grupo N-butil e outras modificações estruturais que aumentaram dramaticamente a lipofilicidade e afinidade pelo receptor mu.</p>
+<p>Contemporaneamente ao desenvolvimento de buprenorfina, pesquisadores desenvolveram outros orvínóis para aplicações distintas. A <strong>etorfina</strong> <a href="#fig-m99" class="quarto-xref">Figure&nbsp;2</a>, um opioide de extrema potência, foi desenvolvido como agente de imobilização para fauna selvagem. A etorfina funciona como agonista completo nos receptores opioides mu e kappa, fazendo-o uma das substâncias opioides mais potentes conhecidas, apropriado para imobilização de grandes animais como elefantes, rinocerontes e outros animais de grande porte selvagens.</p>
+<div id="fig-m99" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-m99-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="m99.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-m99-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Potência Extrema e Aplicação Veterinária. A Etorfina é um exemplo clássico de como modificações estruturais (ponte 6,14-endo-eteno) podem amplificar a potência opioide em 1.000 a 3.000 vezes em relação à morfina. Devido a essa potência extrema, seu uso é restrito à medicina veterinária para a imobilização de grandes mamíferos (como elefantes), permitindo que uma dose eficaz seja contida em um pequeno dardo. O frasco exibe a designação “M-99”, código original de desenvolvimento da Reckitt &amp; Colman.
+</figcaption>
+</figure>
+</div>
+<p>Em paralelo, a diprenorfina foi desenvolvida como antagonista (proxima seção deste texto) dos receptores opioides mu e agonista parcial nos receptores kappa. Sua descoberta foi crucial, pois funcionava como reversor farmacológico da etorfina, permitindo a reversão rápida da imobilização em animais selvagens após procedimentos veterinários.</p>
+<section id="evolução-da-classe-e-aplicações-clínicas" class="level3">
+<h3 class="anchored" data-anchor-id="evolução-da-classe-e-aplicações-clínicas">Evolução da Classe e Aplicações Clínicas</h3>
+<p>Após a síntese de buprenorfina, estudos clínicos iniciais foram conduzidos, estabelecendo seu perfil como analgésico de longa duração. Sua característica de agonista parcial foi particularmente valorizada porque produzia menor depressão respiratória comparada a agonistas completos, reduzindo o risco de morte por overdose.​</p>
+<p>Expansão Veterinária e de Pesquisa: Etorfina tornou-se padrão em imobilização de fauna selvagem nos anos 1970-1980, revolucionando procedimentos veterinários de campo. A diprenorfina permitiu intervenção rápida em casos de complicações respiratórias relacionadas a etorfina.​</p>
+<p>Aplicações em Transtorno por Uso de Opioides: Em 2002, a FDA aprovou buprenorfina para tratamento de transtorno por dependência de opioides, representando avanço significativo. Sua formulação de alta potência, associação com naloxona (Suboxone®), e posteriormente formulações de longa ação transformaram o tratamento médico do transtorno.​</p>
+<p>Desenvolvimento Contemporâneo: Pesquisadores continuam modificando o arcabouço orvinal para investigar novo perfil farmacológico. Recentes compostos derivados de orvinal com propriedades de antagonista kappa e agonista parcial mu foram desenvolvidos para potencial aplicação em prevenção de recaída em abuso de cocaína e em tratamentos antidepressivos. Derivados com atividade dual kappa/mu também estão sendo investigados como analgésicos sem efeitos reforçadores (Discutiremos esses compostos na próxima seção).</p>
+</section>
+</section>
+<section id="antagonista-opioides" class="level2">
+<h2 class="anchored" data-anchor-id="antagonista-opioides">Antagonista opioides</h2>
+<p>A história dos antagonistas opioides fundamenta-se na necessidade de compreender os mecanismos de ação dos derivados morfínicos no organismo. No início do século XX, observou-se que certos compostos estruturalmente análogos à morfina não apenas careciam de efeitos analgésicos, como também eram capazes de reverter a ação de opioides clássicos. Essa constatação marcou o início de uma das linhagens mais produtivas da farmacologia moderna.</p>
+<section id="a-descoberta-da-nalorfina-e-o-conceito-de-antagonismo" class="level3">
+<h3 class="anchored" data-anchor-id="a-descoberta-da-nalorfina-e-o-conceito-de-antagonismo">A Descoberta da Nalorfina e o Conceito de Antagonismo</h3>
+<p>A trajetória dos antagonistas clinicamente viáveis começou com a síntese da nalorfina entre 1953 e 1954. Derivada de modificações estruturais na tebaína, ela demonstrou uma capacidade inédita de reverter a depressão respiratória, a sedação e a analgesia induzidas pela morfina. Ao atuar como um bloqueador competitivo, a nalorfina estabeleceu as bases para o desenvolvimento de antídotos contra overdoses. Contudo, sua farmacologia revelou-se complexa: por possuir atividade agonista no receptor kappa enquanto antagonizava o receptor mu, era classificada como um antagonista parcial ou misto, apresentando efeitos duais que motivaram a busca por compostos mais seletivos e neutros.</p>
+<p>Na mesma linha de desenvolvimento precoce, surgiu o levalorfano. Sintetizado entre as décadas de 1940 e 1950, este composto mostrou-se aproximadamente 25 vezes mais potente que a nalorfina na reversão de efeitos narcóticos. Diferente da pentazocina, o levalorfano atua como um inibidor puro dos receptores mu (<span class="math inline">\(\mu\)</span>), sendo particularmente eficaz no bloqueio da depressão respiratória em contextos de urgência clínica, embora não possua atividade analgésica intrínseca.</p>
+<p>A dualidade da nalorfina impulsionou William R. Martin, em 1967, a propor que os efeitos dos opioides eram mediados por diferentes classes de receptores, denominados mu (<span class="math inline">\(\mu\)</span> ou MOR), delta (<span class="math inline">\(\delta\)</span> ou DOR) e kappa (<span class="math inline">\(\kappa\)</span> ou KOR). Essa hipótese explicava por que diferentes fármacos produziam perfis clínicos distintos e foi confirmada experimentalmente em 1973 por Candace Pert e Solomon Snyder. Utilizando naloxona marcada radioativamente, os pesquisadores demonstraram a existência de sítios específicos de ligação no cérebro, consolidando a base para a farmacologia molecular dos opioides (<a href="#fig-other-anta-opi" class="quarto-xref">Figure&nbsp;3</a>).</p>
+<div id="fig-other-anta-opi" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-other-anta-opi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="other-anta-opi.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-other-anta-opi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Estruturas químicas da morfina e de seus antagonistas derivados. A figura ilustra como modificações estruturais específicas na molécula da morfina (agonista opioide) levam ao desenvolvimento de antagonistas, desde os não seletivos, como a naloxona e a naltrexona, até os altamente seletivos para receptores específicos, como o naltrindol (DOR) e a norbinaltorfimina (KOR). As alterações químicas cruciais para a atividade antagonista estão destacadas em azul.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="antagonistas-puros-e-seletividade-moderna" class="level3">
+<h3 class="anchored" data-anchor-id="antagonistas-puros-e-seletividade-moderna">Antagonistas Puros e Seletividade Moderna</h3>
+<p>Na década de 1960, o desenvolvimento da naloxona estabeleceu o padrão-ouro para o tratamento de overdoses agudas. Trata-se de um antagonista neutro, desprovido de atividade intrínseca, capaz de reverter completamente qualquer efeito opioide em 30 a 90 minutos. Pouco depois, a naltrexona expandiu as possibilidades terapêuticas com sua melhor absorção oral e meia-vida prolongada (até 12 horas para seu metabólito ativo), tornando-se fundamental na manutenção de pacientes em recuperação da dependência.</p>
+<p>Com o avanço da síntese química, surgiram ferramentas de alta seletividade, como o naltrindol <a href="#fig-other-anta-opi" class="quarto-xref">Figure&nbsp;3</a> (antagonista seletivo DOR) e a norbinaltorfimina (antagonista seletivo KOR), essenciais para a investigação fisiológica de cada subtipo de receptor. Mais recentemente, o samidorfano destacou-se por sua alta afinidade pelo receptor <span class="math inline">\(\mu\)</span> (<span class="math inline">\(K_i = 0,052\)</span> nmol/L) e atividade de agonista parcial em <span class="math inline">\(\kappa\)</span> e <span class="math inline">\(\delta\)</span>. Clinicamente, ele é empregado em co-formulação com a olanzapina para mitigar efeitos adversos metabólicos do antipsicótico, como o ganho de peso excessivo, sem comprometer a eficácia do tratamento psiquiátrico.</p>
+</section>
+<section id="agonistas-antagonistas-mistos-e-o-papel-da-buprenorfina" class="level3">
+<h3 class="anchored" data-anchor-id="agonistas-antagonistas-mistos-e-o-papel-da-buprenorfina">Agonistas-Antagonistas Mistos e o Papel da Buprenorfina</h3>
+<p>Fármacos como a pentazocina e o butorfanol apresentam perfis farmacológicos peculiares. A pentazocina atua como agonista parcial em receptores kappa, mediando analgesia moderada a intensa com menor potencial de abuso, embora possa antagonizar agonistas puros em determinadas circunstâncias. Já o butorfanol, até 8 vezes mais potente que a morfina, é restrito ao controle da dor aguda pós-operatória devido à sua ação agonista KOR e antagonista MOR.</p>
+<p>A buprenorfina representa uma das evoluções mais significativas no tratamento da dependência de opioides no Brasil (<a href="#fig-brepe-B" class="quarto-xref">Figure&nbsp;4</a>). Aprovada pela ANVISA, ela atua como agonista parcial mu e antagonista KOR. Sua altíssima afinidade pelo receptor, somada a um efeito de “teto” (onde o aumento da dose não gera euforia proporcional ou depressão respiratória fatal), permite uma desintoxicação gradual e segura. Com meia-vida extensa (24 a 60 horas), a buprenorfina proporciona estabilidade clínica superior aos antagonistas puros no manejo da abstinência crônica.</p>
+<div id="fig-brepe-B" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-brepe-B-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="brepe-Botor.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-brepe-B-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Estruturas da Breprenorfina e Butorfanol.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="rerversores-de-constipação" class="level3">
+<h3 class="anchored" data-anchor-id="rerversores-de-constipação">Rerversores de constipação</h3>
+<p>Os PAMORAs <a href="#fig-pomoras" class="quarto-xref">Figure&nbsp;5</a> (Antagonistas de Receptores Opioides Mu de Ação Periférica) são medicamentos desenvolvidos para tratar a constipação causada pelo uso crônico de opioides sem anular o efeito analgésico. O grande diferencial desta classe reside na sua incapacidade de atravessar a barreira hematoencefálica. Enquanto antagonistas comuns, como a naloxona, entram no cérebro e cortam o alívio da dor, os PAMORAs agem apenas na “periferia” (especialmente no trato gastrointestinal), bloqueando os receptores que causam o ressecamento das fezes, mas permitindo que o opioide continue agindo no cérebro para controlar a dor.</p>
+<p>A viabilidade técnica dessa seletividade foi alcançada através de modificações moleculares, como visto na metilnaltrexona, o primeiro fármaco da classe. Ao adicionar um grupo metil à naltrexona original, criou-se um amônio quaternário, uma estrutura que possui carga elétrica positiva permanente. Essa carga torna a molécula polar (hidrofílica), o que significa que ela não consegue se dissolver nas gorduras das membranas que protegem o cérebro, ficando restrita à circulação sistêmica. Além disso, o fármaco apresenta estabilidade metabólica por não depender de enzimas comuns como o CYP3A4 (parte do sistema citocromo P450 responsável por processar a maioria dos remédios no fígado), o que reduz drasticamente o risco de interações medicamentosas perigosas.</p>
+<div id="fig-pomoras" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pomoras-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="pomoras.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pomoras-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Pomoras: Metilnaltrexona e Naloxegol e Naldemedina
+</figcaption>
+</figure>
+</div>
+<p>O naloxegol e a naldemedina <a href="#fig-pomoras" class="quarto-xref">Figure&nbsp;5</a> representam evoluções orais dos PAMORAs, utilizando estratégias moleculares distintas para evitar o Sistema Nervoso Central. O naloxegol é uma molécula de naloxona ligada ao polietilenoglicol (PEG), uma modificação que reduz sua capacidade de atravessar a barreira hematoencefálica, embora exija cautela clínica por interagir com a enzima CYP3A4 (metabolismo hepático). Já a naldemedina destaca-se por ser um antagonista não-competitivo, o que significa que ela se liga ao receptor de forma mais persistente e lenta, não disputando espaço diretamente com o opioide. Além disso, ela possui uma janela terapêutica mais ampla, agindo em múltiplos receptores (mu, delta e kappa) com menor risco de desencadear sintomas de abstinência periférica, como a diarreia severa.</p>
+<p>Por fim, o alvimopan <a href="#fig-alvimopan" class="quarto-xref">Figure&nbsp;6</a> é considerado o agente mais restrito ao sistema digestivo da classe, apresentando uma biodisponibilidade oral ínfima de apenas 0,03%. Isso significa que quase nada do fármaco entra na corrente sanguínea; ele “mora” no trato gastrointestinal após a ingestão. Tecnicamente, ele possui uma afinidade de ligação (medida pelo valor de <span class="math inline">\(K_i\)</span>) extremamente alta, sendo mais potente que a própria naloxona para bloquear os receptores mu locais. Essa característica o torna um antagonista extraordinariamente periférico, garantindo que os efeitos analgésicos da morfina ou oxicodona na medula espinhal e no cérebro permaneçam absolutamente intactos enquanto o intestino recupera sua função normal.</p>
+<div id="fig-alvimopan" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-alvimopan-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="alvimopan.png" class="img-fluid figure-img" style="width:70.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-alvimopan-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Estrutura do Alvimopan
+</figcaption>
+</figure>
+</div>
+<p>A distinção química do alvimopan reside em sua estrutura zwitteriônica, peso molecular moderadamente alto e elevada polaridade, características físico-químicas que limitam severamente sua absorção gastrointestinal (biodisponibilidade de ~0,03%) e impedem sua passagem através da barreira hematoencefálica. Mecanisticamente, ele se diferencia por apresentar uma afinidade extremamente alta pelo receptor <span class="math inline">\(\mu\)</span>-opioide (<span class="math inline">\(K_i = 0,77\)</span> nM) — sendo mais potente que a naloxona — e uma seletividade superior a 200 vezes para receptores periféricos em comparação aos centrais. Isso permite que o alvimopan antagonize os efeitos gastrointestinais dos opioides (como o íleo paralítico e a constipação) de forma eficaz, sem reverter a analgesia mediada pelo sistema nervoso central, o que constitui sua principal vantagem terapêutica sobre antagonistas não seletivos.</p>
+</section>
+</section>
+<section id="seletividade-mof-kor-e-dor" class="level2">
+<h2 class="anchored" data-anchor-id="seletividade-mof-kor-e-dor">Seletividade MOF, KOR e DOR</h2>
+<p>A seletividade dos opioides pelos receptores mu (MOR), delta (DOR) e kappa (KOR) constitui um dos pilares fundamentais para o desenvolvimento de analgésicos mais eficazes e seguros. Esses três receptores compartilham 49-58% de identidade de sequência primária, mas exibem perfis farmacológicos distintos. A ativação do MOR medeia os principais efeitos analgésicos dos opioides clássicos como morfina e fentanil, porém está associada aos efeitos adversos mais graves, <strong>incluindo dependência</strong>, <strong>depressão respiratória</strong> e <strong>efeitos sobre o sistema de recompensa</strong>. O DOR, por sua vez, tem sido associado a efeitos analgésicos com menor risco de dependência e possível papel em <strong>distúrbios relacionados ao humor</strong>. O KOR apresenta propriedades analgésicas, mas sua ativação está relacionada a <strong>efeitos disfóricos, ansiedade e alucinações</strong>, o que limita sua aplicação clínica como alvo analgésico primário. A seletividade é determinada por diferenças estruturais nos bolsões de ligação dos receptores, especialmente em resíduos-chave que interagem com domínios específicos dos ligantes, permitindo o desenvolvimento de agonistas e antagonistas altamente seletivos. Além disso, o conceito de agonismo enviesado (biased agonism) revela que diferentes ligantes podem estabilizar conformações específicas do receptor, favorecendo vias de sinalização distintas - como acoplamento à proteína G versus recrutamento de β-arrestina - o que impacta diretamente o perfil terapêutico e de efeitos adversos.​</p>
+<p>Do ponto de vista clínico, a seletividade de opioides determina não apenas a potência analgésica, mas também o perfil de segurança e a aplicabilidade terapêutica. Agonistas seletivos de MOR, como morfina, fentanil, são fundamentais no tratamento da dor aguda e crônica, mas carregam riscos substanciais de tolerância, dependência física e morte por overdose. A busca por agonistas de DOR seletivos, como SNC80 e DPDPE, baseia-se na hipótese de que a ativação preferencial desse receptor poderia proporcionar analgesia com menor potencial de abuso, embora alguns agonistas de DOR tenham demonstrado efeitos convulsivos em doses terapêuticas. Agonistas seletivos de KOR, incluindo U69593, nalfurafina e compostos experimentais, demonstram <strong>potente efeito antinociceptivo</strong>, porém os efeitos adversos centrais como sedação e disforia limitam seu desenvolvimento clínico. Interessantemente, agonistas mistos de KOR/DOR têm sido explorados como alternativas não aditivas aos opioides convencionais, embora estudos recentes questionem sua eficácia em modelos de dor mais refinados. A combinação estratégica de agonistas de MOR com antagonistas de DOR também tem sido investigada para reduzir tolerância e melhorar a analgesia. O desenvolvimento de ligantes com atividade biased (enviesada) para proteína G, evitando recrutamento excessivo de β-arrestina, representa uma fronteira promissora para fármacos com melhor relação benefício-risco.</p>
+<p>Antagonistas seletivos também desempenham papéis críticos: naloxona e naltrexona são antagonistas não seletivos empregados em overdoses e tratamento de dependência; naltrindol é um antagonista seletivo de DOR usado como ferramenta experimental; e nor-binaltorfimina (norBNI) é o protótipo de antagonista seletivo de KOR. Antagonistas seletivos de MOR <strong>?@fig-anta-his</strong>, como derivados de naltrexona modificados (NAP, NAQ), estão sendo desenvolvidos para aplicações mais específicas, incluindo tratamento de transtornos por uso de opioides com menor precipitação de sintomas de abstinência. A utilidade clínica dessas classes depende da necessidade de maximizar analgesia, minimizar efeitos adversos, prevenir abuso ou reverter intoxicação, demonstrando que a modulação seletiva e parcial dos receptores opioides oferece um arsenal terapêutico diversificado e adaptável às diferentes necessidades clínicas.</p>
+<div id="tbl-seletive" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-seletive-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Fármacos opioides seletivos: exemplos de agonistas, antagonistas e agonistas parciais com seus perfis farmacológicos
+</figcaption>
+<div aria-describedby="tbl-seletive-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 18%">
+<col style="width: 25%">
+<col style="width: 24%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fármaco</th>
+<th>Receptor Principal</th>
+<th>Perfil Farmacológico</th>
+<th>Aplicação Clínica</th>
+<th>Observações</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DAMGO</td>
+<td>MOR</td>
+<td>Agonista total seletivo</td>
+<td>Ferramenta experimental</td>
+<td>Peptídeo sintético de alta seletividade</td>
+</tr>
+<tr class="even">
+<td>Morfina</td>
+<td>MOR</td>
+<td>Agonista total (alguma atividade em heterômeros μ-δ)</td>
+<td>Analgesia para dor moderada a severa</td>
+<td>Agonista clássico, alto risco de dependência</td>
+</tr>
+<tr class="odd">
+<td>Fentanil</td>
+<td>MOR</td>
+<td>Agonista total seletivo (50-100× mais potente que morfina)</td>
+<td>Analgesia cirúrgica, dor oncológica</td>
+<td>Potente, rápido início, alto risco overdose</td>
+</tr>
+<tr class="even">
+<td>DPDPE</td>
+<td>DOR</td>
+<td>Agonista seletivo</td>
+<td>Ferramenta experimental</td>
+<td>Peptídeo, estudo de vias DOR</td>
+</tr>
+<tr class="odd">
+<td>SNC80</td>
+<td>DOR</td>
+<td>Agonista seletivo não-peptídico</td>
+<td>Pesquisa (efeitos convulsivos limitam uso)</td>
+<td>Potencial antidepressivo e analgésico</td>
+</tr>
+<tr class="even">
+<td>U69593</td>
+<td>KOR</td>
+<td>Agonista seletivo</td>
+<td>Ferramenta experimental</td>
+<td>Induz disforia e aversão</td>
+</tr>
+<tr class="odd">
+<td>Nalfurafina</td>
+<td>KOR</td>
+<td>Agonista seletivo</td>
+<td>Prurido (aprovado no Japão), pesquisa analgésica</td>
+<td>Menos sedação que agonistas KOR clássicos</td>
+</tr>
+<tr class="even">
+<td>Buprenorfina</td>
+<td>MOR (parcial), KOR/DOR (antagonista)</td>
+<td>Agonista parcial de alta afinidade em MOR</td>
+<td>Tratamento de dependência de opioides, analgesia crônica</td>
+<td>Efeito teto para depressão respiratória</td>
+</tr>
+<tr class="odd">
+<td>Nalbuphina</td>
+<td>KOR (agonista), MOR (antagonista/parcial)</td>
+<td>Agonista-antagonista misto</td>
+<td>Analgesia perioperatória</td>
+<td>Menor abuso que morfina, analgesia moderada</td>
+</tr>
+<tr class="even">
+<td>Pentazocina</td>
+<td>KOR (agonista), MOR (antagonista/parcial)</td>
+<td>Agonista-antagonista misto</td>
+<td>Analgesia (uso limitado)</td>
+<td>Perfil misto, potencial alucinógeno</td>
+</tr>
+<tr class="odd">
+<td>Naloxona</td>
+<td>MOR/DOR/KOR</td>
+<td>Antagonista não-seletivo</td>
+<td>Reversão de overdose, precipitação de abstinência</td>
+<td>Ação rápida, curta duração</td>
+</tr>
+<tr class="even">
+<td>Naltrexona</td>
+<td>MOR/DOR/KOR</td>
+<td>Antagonista não-seletivo (agonista inverso)</td>
+<td>Tratamento de dependência de álcool e opioides</td>
+<td>Longa duração, precipita abstinência</td>
+</tr>
+<tr class="odd">
+<td>Naltrindol</td>
+<td>DOR</td>
+<td>Antagonista seletivo</td>
+<td>Ferramenta experimental</td>
+<td>Alta seletividade DOR</td>
+</tr>
+<tr class="even">
+<td>Nor-binaltorfimina</td>
+<td>KOR</td>
+<td>Antagonista seletivo</td>
+<td>Ferramenta experimental</td>
+<td>Bloqueio prolongado de KOR</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="teoria-da-ligação-de-opioides" class="level2">
+<h2 class="anchored" data-anchor-id="teoria-da-ligação-de-opioides">Teoria da ligação de opioides</h2>
+<p>O descobrimento das estruturas cristalinas de receptores opioides representou um marco fundamental na farmacologia computacional. Em 2012, um número especial da revista Nature publicou simultaneamente as primeiras estruturas tridimensionais em alta resolução de todos os principais receptores opioides de mamíferos, capturando informações que permaneciam ocultas desde a descoberta dos antagonistas. Esses estudos revolucionários abriram uma nova era na compreensão molecular da ligação diferencial de agonistas, agonistas parciais e antagonistas aos receptores opioides (https://pmc.ncbi.nlm.nih.gov/articles/PMC3589518/).</p>
+<div id="cell-fig-mor-natext-hidrogenios" class="cell" data-execution_count="1">
+<div id="fig-mor-natext-hidrogenios" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-mor-natext-hidrogenios-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div id="3dmolviewer_1772471887587648" style="position: relative; width: 900px; height: 500px;">
+        <p id="3dmolwarning_1772471887587648" style="background-color:#ffcccc;color:black">3Dmol.js failed to load for some reason.  Please check your browser console for error messages.<br></p>
+        </div>
+<script>
+
+var loadScriptAsync = function(uri){
+  return new Promise((resolve, reject) => {
+    //this is to ignore the existence of requirejs amd
+    var savedexports, savedmodule;
+    if (typeof exports !== 'undefined') savedexports = exports;
+    else exports = {}
+    if (typeof module !== 'undefined') savedmodule = module;
+    else module = {}
+
+    var tag = document.createElement('script');
+    tag.src = uri;
+    tag.async = true;
+    tag.onload = () => {
+        exports = savedexports;
+        module = savedmodule;
+        resolve();
+    };
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+});
+};
+
+if(typeof $3Dmolpromise === 'undefined') {
+$3Dmolpromise = null;
+  $3Dmolpromise = loadScriptAsync('https://cdn.jsdelivr.net/npm/3dmol@2.5.3/build/3Dmol-min.js');
+}
+
+var viewer_1772471887587648 = null;
+var warn = document.getElementById("3dmolwarning_1772471887587648");
+if(warn) {
+    warn.parentNode.removeChild(warn);
+}
+$3Dmolpromise.then(function() {
+var viewergrid_1772471887587648 = null;
+viewergrid_1772471887587648 = $3Dmol.createViewerGrid(document.getElementById("3dmolviewer_1772471887587648"),{rows: 1, cols: 2, control_all: false},{backgroundColor:"white"});
+viewer_1772471887587648 = viewergrid_1772471887587648[0][0];
+viewergrid_1772471887587648[0][0].zoomTo();viewergrid_1772471887587648[0][1].zoomTo();  viewergrid_1772471887587648[0][0].addModel("COMPND    G:\\Meu Drive\\LIVRO_QF_maravilha\\my-book\\PDBs-mor\\site_morfina.pdb \nAUTHOR    GENERATED BY OPEN BABEL 3.1.1\nATOM     17  N   ASP A 147      93.772  82.994 154.589  1.00  0.00           N  \nATOM     18  CA  ASP A 147      92.369  82.768 154.915  1.00  0.00           C  \nATOM     19  C   ASP A 147      91.486  82.850 153.675  1.00  0.00           C  \nATOM     20  O   ASP A 147      90.607  82.002 153.478  1.00  0.00           O  \nATOM     21  CB  ASP A 147      91.913  83.771 155.971  1.00  0.00           C  \nATOM     22  CG  ASP A 147      90.640  83.346 156.660  1.00  0.00           C  \nATOM     23  OD1 ASP A 147      90.579  82.201 157.149  1.00  0.00           O  \nATOM     24  OD2 ASP A 147      89.701  84.161 156.721  1.00  0.00           O  \nATOM     25  H   ASP A 147      94.240  83.821 154.931  1.00  0.00           H  \nATOM     26  N   TYR A 148      91.697  83.862 152.825  1.00  0.00           N  \nATOM     27  CA  TYR A 148      90.913  83.944 151.595  1.00  0.00           C  \nATOM     28  C   TYR A 148      91.305  82.845 150.613  1.00  0.00           C  \nATOM     29  O   TYR A 148      90.433  82.234 149.984  1.00  0.00           O  \nATOM     30  CB  TYR A 148      91.069  85.319 150.944  1.00  0.00           C  \nATOM     31  CG  TYR A 148      90.173  86.394 151.528  1.00  0.00           C  \nATOM     32  CD1 TYR A 148      90.624  87.219 152.547  1.00  0.00           C  \nATOM     33  CD2 TYR A 148      88.879  86.586 151.054  1.00  0.00           C  \nATOM     34  CE1 TYR A 148      89.817  88.208 153.084  1.00  0.00           C  \nATOM     35  CE2 TYR A 148      88.061  87.575 151.586  1.00  0.00           C  \nATOM     36  CZ  TYR A 148      88.538  88.381 152.602  1.00  0.00           C  \nATOM     37  OH  TYR A 148      87.737  89.367 153.141  1.00  0.00           O  \nATOM     38  H   TYR A 148      92.393  84.564 153.032  1.00  0.00           H  \nATOM     39  HH  TYR A 148      86.950  88.969 153.520  1.00  0.00           H  \nATOM     40  N   TRP A 293      77.942  77.701 155.980  1.00  0.00           N  \nATOM     41  CA  TRP A 293      78.396  78.874 155.244  1.00  0.00           C  \nATOM     42  C   TRP A 293      77.353  79.970 155.085  1.00  0.00           C  \nATOM     43  O   TRP A 293      77.731  81.135 154.937  1.00  0.00           O  \nATOM     44  CB  TRP A 293      78.895  78.469 153.850  1.00  0.00           C  \nATOM     45  CG  TRP A 293      80.338  78.057 153.830  1.00  0.00           C  \nATOM     46  CD1 TRP A 293      80.846  76.846 153.443  1.00  0.00           C  \nATOM     47  CD2 TRP A 293      81.461  78.856 154.221  1.00  0.00           C  \nATOM     48  NE1 TRP A 293      82.215  76.849 153.565  1.00  0.00           N  \nATOM     49  CE2 TRP A 293      82.616  78.070 154.041  1.00  0.00           C  \nATOM     50  CE3 TRP A 293      81.601  80.162 154.703  1.00  0.00           C  \nATOM     51  CZ2 TRP A 293      83.892  78.547 154.325  1.00  0.00           C  \nATOM     52  CZ3 TRP A 293      82.869  80.631 154.989  1.00  0.00           C  \nATOM     53  CH2 TRP A 293      83.997  79.828 154.794  1.00  0.00           C  \nATOM     54  H   TRP A 293      77.304  77.057 155.534  1.00  0.00           H  \nATOM     55  HE1 TRP A 293      82.826  76.077 153.340  1.00  0.00           H  \nATOM     56  N   HIS A 297      77.901  84.432 155.610  1.00  0.00           N  \nATOM     57  CA  HIS A 297      77.740  85.192 154.373  1.00  0.00           C  \nATOM     58  C   HIS A 297      76.586  86.179 154.469  1.00  0.00           C  \nATOM     59  O   HIS A 297      76.696  87.317 153.998  1.00  0.00           O  \nATOM     60  CB  HIS A 297      77.550  84.247 153.189  1.00  0.00           C  \nATOM     61  CG  HIS A 297      78.839  83.747 152.623  1.00  0.00           C  \nATOM     62  ND1 HIS A 297      79.729  84.571 151.969  1.00  0.00           N  \nATOM     63  CD2 HIS A 297      79.405  82.517 152.637  1.00  0.00           C  \nATOM     64  CE1 HIS A 297      80.783  83.869 151.595  1.00  0.00           C  \nATOM     65  NE2 HIS A 297      80.610  82.619 151.987  1.00  0.00           N  \nATOM     66  H   HIS A 297      77.717  83.439 155.623  1.00  0.00           H  \nATOM     67  HE2 HIS A 297      81.259  81.861 151.833  1.00  0.00           H  \nATOM     68  HD1 HIS A 297      79.596  85.558 151.802  1.00  0.00           H  \nATOM     52  N   TYR A 326      83.926  78.453 160.720  1.00  0.00           N  \nATOM     53  CA  TYR A 326      85.233  77.834 160.957  1.00  0.00           C  \nATOM     54  C   TYR A 326      85.127  76.370 161.397  1.00  0.00           C  \nATOM     55  O   TYR A 326      86.063  75.589 161.219  1.00  0.00           O  \nATOM     56  CB  TYR A 326      86.040  78.631 161.987  1.00  0.00           C  \nATOM     57  CG  TYR A 326      86.712  79.862 161.426  1.00  0.00           C  \nATOM     58  CD1 TYR A 326      87.762  79.754 160.522  1.00  0.00           C  \nATOM     59  CD2 TYR A 326      86.307  81.134 161.810  1.00  0.00           C  \nATOM     60  CE1 TYR A 326      88.382  80.879 160.008  1.00  0.00           C  \nATOM     61  CE2 TYR A 326      86.923  82.263 161.305  1.00  0.00           C  \nATOM     62  CZ  TYR A 326      87.959  82.131 160.403  1.00  0.00           C  \nATOM     63  OH  TYR A 326      88.572  83.256 159.896  1.00  0.00           O  \nATOM     64  H   TYR A 326      83.510  79.030 161.437  1.00  0.00           H  \nATOM     65  HH  TYR A 326      88.570  83.217 158.937  1.00  0.00           H  \nHETATM   83  O   HOH A 525      81.146  88.724 151.465  1.00  0.00           O  \nHETATM   84  H1  HOH A 525      81.885  88.741 152.074  1.00  0.00           H  \nHETATM   85  H2  HOH A 525      80.805  89.611 151.352  1.00  0.00           H  \nHETATM   86  O   HOH A 546      79.109  87.328 152.044  1.00  0.00           O  \nHETATM   87  H1  HOH A 546      79.878  87.855 151.825  1.00  0.00           H  \nHETATM   88  H2  HOH A 546      78.808  87.553 152.924  1.00  0.00           H  \nHETATM   89  O1  MOR     1      85.393  88.777 155.069  1.00  0.00           O  \nHETATM   90  O2  MOR     1      84.637  90.122 157.175  1.00  0.00           O  \nHETATM   91  O3  MOR     1      83.234  88.720 153.128  1.00  0.00           O  \nHETATM   92  N1  MOR     1      87.156  84.142 156.781  1.00  0.00           N  \nHETATM   93  C1  MOR     1      86.212  86.846 156.307  1.00  0.00           C  \nHETATM   94  C2  MOR     1      86.028  86.129 157.653  1.00  0.00           C  \nHETATM   95  C3  MOR     1      85.862  84.607 157.336  1.00  0.00           C  \nHETATM   96  C4  MOR     1      86.108  88.389 156.294  1.00  0.00           C  \nHETATM   97  C5  MOR     1      87.493  86.328 155.623  1.00  0.00           C  \nHETATM   98  C6  MOR     1      85.021  86.558 155.454  1.00  0.00           C  \nHETATM   99  C7  MOR     1      84.613  84.309 156.436  1.00  0.00           C  \nHETATM  100  C8  MOR     1      87.533  84.794 155.523  1.00  0.00           C  \nHETATM  101  C9  MOR     1      84.291  85.384 155.434  1.00  0.00           C  \nHETATM  102  C10 MOR     1      85.429  88.997 157.549  1.00  0.00           C  \nHETATM  103  C11 MOR     1      84.901  86.731 158.453  1.00  0.00           C  \nHETATM  104  C12 MOR     1      84.651  87.675 154.738  1.00  0.00           C  \nHETATM  105  C13 MOR     1      84.621  88.041 158.385  1.00  0.00           C  \nHETATM  106  C14 MOR     1      87.257  82.690 156.680  1.00  0.00           C  \nHETATM  107  C15 MOR     1      83.214  85.319 154.549  1.00  0.00           C  \nHETATM  108  C16 MOR     1      83.597  87.633 153.853  1.00  0.00           C  \nHETATM  109  C17 MOR     1      82.884  86.432 153.749  1.00  0.00           C  \nHETATM  110  H18 MOR     1      85.204  90.721 156.660  1.00  0.00           H  \nHETATM  111  H19 MOR     1      83.840  89.449 153.347  1.00  0.00           H  \nHETATM  112  HN  MOR     1      87.858  84.419 157.453  1.00  0.00           H  \nEND\n","pdb");
+    viewergrid_1772471887587648[0][0].setStyle({"elem": "H", "invert": true},{"stick": {"colorscheme": "cyanCarbon", "radius": 0.2}});
+    viewergrid_1772471887587648[0][0].setStyle({"elem": "H"},{"stick": {"color": "white", "radius": 0.12}});
+    viewergrid_1772471887587648[0][0].setStyle({"resn": "HOH", "elem": "O"},{"stick": {"color": "red", "radius": 0.5}});
+    viewergrid_1772471887587648[0][0].addResLabels({"not": {"resn": "HOH"}},{"font": "Arial", "fontSize": 10, "showBackground": false, "fontColor": "black"});
+    viewergrid_1772471887587648[0][0].zoomTo();
+    viewergrid_1772471887587648[0][1].addModel("COMPND    G:\\Meu Drive\\LIVRO_QF_maravilha\\my-book\\PDBs-mor\\site_natrexona.pdb \nAUTHOR    GENERATED BY OPEN BABEL 3.1.1\nATOM      1  N   ASP A 147      92.342  83.230 154.757  1.00  0.00           N  \nATOM      2  CA  ASP A 147      90.902  83.230 155.002  1.00  0.00           C  \nATOM      3  C   ASP A 147      90.136  83.188 153.678  1.00  0.00           C  \nATOM      4  O   ASP A 147      89.337  82.267 153.418  1.00  0.00           O  \nATOM      5  CB  ASP A 147      90.506  84.474 155.799  1.00  0.00           C  \nATOM      6  CG  ASP A 147      89.387  84.207 156.786  1.00  0.00           C  \nATOM      7  OD1 ASP A 147      89.444  83.180 157.492  1.00  0.00           O  \nATOM      8  OD2 ASP A 147      88.451  85.032 156.857  1.00  0.00           O  \nATOM      9  H   ASP A 147      92.902  83.989 155.118  1.00  0.00           H  \nATOM     10  N   TYR A 148      90.400  84.182 152.831  1.00  0.00           N  \nATOM     11  CA  TYR A 148      89.739  84.258 151.529  1.00  0.00           C  \nATOM     12  C   TYR A 148      90.016  83.038 150.645  1.00  0.00           C  \nATOM     13  O   TYR A 148      89.096  82.479 150.037  1.00  0.00           O  \nATOM     14  CB  TYR A 148      90.118  85.553 150.806  1.00  0.00           C  \nATOM     15  CG  TYR A 148      89.329  86.753 151.280  1.00  0.00           C  \nATOM     16  CD1 TYR A 148      89.718  87.464 152.408  1.00  0.00           C  \nATOM     17  CD2 TYR A 148      88.188  87.167 150.604  1.00  0.00           C  \nATOM     18  CE1 TYR A 148      88.993  88.559 152.847  1.00  0.00           C  \nATOM     19  CE2 TYR A 148      87.459  88.259 151.035  1.00  0.00           C  \nATOM     20  CZ  TYR A 148      87.866  88.951 152.156  1.00  0.00           C  \nATOM     21  OH  TYR A 148      87.143  90.038 152.589  1.00  0.00           O  \nATOM     22  H   TYR A 148      91.067  84.894 153.092  1.00  0.00           H  \nATOM     23  HH  TYR A 148      86.208  89.821 152.590  1.00  0.00           H  \nATOM     24  N   TRP A 293      78.236  77.474 155.881  1.00  0.00           N  \nATOM     25  CA  TRP A 293      78.693  78.707 155.251  1.00  0.00           C  \nATOM     26  C   TRP A 293      77.564  79.646 154.831  1.00  0.00           C  \nATOM     27  O   TRP A 293      77.792  80.835 154.614  1.00  0.00           O  \nATOM     28  CB  TRP A 293      79.601  78.400 154.060  1.00  0.00           C  \nATOM     29  CG  TRP A 293      80.992  77.987 154.455  1.00  0.00           C  \nATOM     30  CD1 TRP A 293      81.388  76.761 154.904  1.00  0.00           C  \nATOM     31  CD2 TRP A 293      82.168  78.805 154.429  1.00  0.00           C  \nATOM     32  NE1 TRP A 293      82.738  76.765 155.161  1.00  0.00           N  \nATOM     33  CE2 TRP A 293      83.241  78.008 154.877  1.00  0.00           C  \nATOM     34  CE3 TRP A 293      82.419  80.134 154.069  1.00  0.00           C  \nATOM     35  CZ2 TRP A 293      84.543  78.495 154.975  1.00  0.00           C  \nATOM     36  CZ3 TRP A 293      83.712  80.614 154.168  1.00  0.00           C  \nATOM     37  CH2 TRP A 293      84.758  79.796 154.614  1.00  0.00           C  \nATOM     38  H   TRP A 293      77.825  76.742 155.319  1.00  0.00           H  \nATOM     39  HE1 TRP A 293      83.273  75.980 155.504  1.00  0.00           H  \nATOM     40  N   HIS A 297      77.539  83.981 154.838  1.00  0.00           N  \nATOM     41  CA  HIS A 297      77.467  84.604 153.523  1.00  0.00           C  \nATOM     42  C   HIS A 297      76.275  85.551 153.430  1.00  0.00           C  \nATOM     43  O   HIS A 297      76.357  86.610 152.807  1.00  0.00           O  \nATOM     44  CB  HIS A 297      77.397  83.548 152.418  1.00  0.00           C  \nATOM     45  CG  HIS A 297      78.732  83.180 151.847  1.00  0.00           C  \nATOM     46  ND1 HIS A 297      79.448  84.025 151.026  1.00  0.00           N  \nATOM     47  CD2 HIS A 297      79.478  82.056 151.974  1.00  0.00           C  \nATOM     48  CE1 HIS A 297      80.580  83.439 150.675  1.00  0.00           C  \nATOM     49  NE2 HIS A 297      80.622  82.246 151.236  1.00  0.00           N  \nATOM     50  H   HIS A 297      77.487  82.975 154.913  1.00  0.00           H  \nATOM     51  HD1 HIS A 297      79.154  84.947 150.738  1.00  0.00           H  \nATOM     52  N   TYR A 326      83.926  78.453 160.720  1.00  0.00           N  \nATOM     53  CA  TYR A 326      85.233  77.834 160.957  1.00  0.00           C  \nATOM     54  C   TYR A 326      85.127  76.370 161.397  1.00  0.00           C  \nATOM     55  O   TYR A 326      86.063  75.589 161.219  1.00  0.00           O  \nATOM     56  CB  TYR A 326      86.040  78.631 161.987  1.00  0.00           C  \nATOM     57  CG  TYR A 326      86.712  79.862 161.426  1.00  0.00           C  \nATOM     58  CD1 TYR A 326      87.762  79.754 160.522  1.00  0.00           C  \nATOM     59  CD2 TYR A 326      86.307  81.134 161.810  1.00  0.00           C  \nATOM     60  CE1 TYR A 326      88.382  80.879 160.008  1.00  0.00           C  \nATOM     61  CE2 TYR A 326      86.923  82.263 161.305  1.00  0.00           C  \nATOM     62  CZ  TYR A 326      87.959  82.131 160.403  1.00  0.00           C  \nATOM     63  OH  TYR A 326      88.572  83.256 159.896  1.00  0.00           O  \nATOM     64  H   TYR A 326      83.510  79.030 161.437  1.00  0.00           H  \nATOM     65  HH  TYR A 326      88.570  83.217 158.937  1.00  0.00           H  \nHETATM   66  O   HOH A 718      79.788  88.642 150.477  1.00  0.00           O  \nHETATM   67  H1  HOH A 718      80.237  88.977 149.701  1.00  0.00           H  \nHETATM   68  H2  HOH A 718      79.388  87.796 150.274  1.00  0.00           H  \nHETATM   69  O1  NAL     1      84.390  88.961 153.453  1.00  0.00           O  \nHETATM   70  O2  NAL     1      86.597  86.965 156.920  1.00  0.00           O  \nHETATM   71  O3  NAL     1      84.115  90.748 155.467  1.00  0.00           O  \nHETATM   72  O4  NAL     1      81.874  88.844 151.973  1.00  0.00           O  \nHETATM   73  N1  NAL     1      85.838  84.556 155.803  1.00  0.00           N  \nHETATM   74  C1  NAL     1      85.159  87.260 154.990  1.00  0.00           C  \nHETATM   75  C2  NAL     1      85.237  86.851 156.469  1.00  0.00           C  \nHETATM   76  C3  NAL     1      84.811  85.345 156.532  1.00  0.00           C  \nHETATM   77  C4  NAL     1      85.213  88.758 154.646  1.00  0.00           C  \nHETATM   78  C5  NAL     1      86.168  86.425 154.166  1.00  0.00           C  \nHETATM   79  C6  NAL     1      83.786  87.007 154.472  1.00  0.00           C  \nHETATM   80  C7  NAL     1      84.408  87.784 157.369  1.00  0.00           C  \nHETATM   81  C8  NAL     1      85.989  84.912 154.388  1.00  0.00           C  \nHETATM   82  C9  NAL     1      83.341  85.119 156.027  1.00  0.00           C  \nHETATM   83  C10 NAL     1      82.934  85.994 154.870  1.00  0.00           C  \nHETATM   84  C11 NAL     1      85.705  83.115 155.981  1.00  0.00           C  \nHETATM   85  C12 NAL     1      84.828  89.240 157.176  1.00  0.00           C  \nHETATM   86  C13 NAL     1      85.710  82.744 157.429  1.00  0.00           C  \nHETATM   87  C14 NAL     1      84.643  89.668 155.738  1.00  0.00           C  \nHETATM   88  C15 NAL     1      83.437  87.974 153.551  1.00  0.00           C  \nHETATM   89  C16 NAL     1      84.503  83.049 158.257  1.00  0.00           C  \nHETATM   90  C17 NAL     1      84.826  81.630 157.892  1.00  0.00           C  \nHETATM   91  C18 NAL     1      81.700  85.923 154.224  1.00  0.00           C  \nHETATM   92  C19 NAL     1      82.231  87.913 152.891  1.00  0.00           C  \nHETATM   93  C20 NAL     1      81.362  86.866 153.229  1.00  0.00           C  \nHETATM   94  H20 NAL     1      86.968  87.799 156.585  1.00  0.00           H  \nHETATM   95  H23 NAL     1      82.601  89.485 151.888  1.00  0.00           H  \nHETATM   96  HN  NAL     1      86.718  84.799 156.235  1.00  0.00           H  \nCONECT    1    2    9                                                 \nCONECT    2    3    1    5                                            \nCONECT    3   10    4    4    2                                       \nCONECT    4    3    3                                                 \nCONECT    5    2    6                                                 \nCONECT    6    5    8    8    7                                       \nCONECT    7    6                                                      \nCONECT    8    6    6                                                 \nCONECT    9    1                                                      \nCONECT   10   11   22    3                                            \nCONECT   11   12   14   10                                            \nCONECT   12   13   13   11                                            \nCONECT   13   12   12                                                 \nCONECT   14   15   11                                                 \nCONECT   15   17   17   14   16                                       \nCONECT   16   15   18   18                                            \nCONECT   17   19   15   15                                            \nCONECT   18   20   16   16                                            \nCONECT   19   17   20   20                                            \nCONECT   20   19   19   21   18                                       \nCONECT   21   20   23                                                 \nCONECT   22   10                                                      \nCONECT   23   21                                                      \nCONECT   24   25   38                                                 \nCONECT   25   28   26   24                                            \nCONECT   26   27   27   25                                            \nCONECT   27   26   26                                                 \nCONECT   28   29   25                                                 \nCONECT   29   28   31   30   30                                       \nCONECT   30   29   29   32                                            \nCONECT   31   34   34   29   33                                       \nCONECT   32   33   30   39                                            \nCONECT   33   31   35   35   32                                       \nCONECT   34   36   31   31                                            \nCONECT   35   37   33   33                                            \nCONECT   36   34   37   37                                            \nCONECT   37   36   36   35                                            \nCONECT   38   24                                                      \nCONECT   39   32                                                      \nCONECT   40   41   50                                                 \nCONECT   41   44   42   40                                            \nCONECT   42   43   43   41                                            \nCONECT   43   42   42                                                 \nCONECT   44   45   41                                                 \nCONECT   45   46   47   47   44                                       \nCONECT   46   48   51   45                                            \nCONECT   47   49   45   45                                            \nCONECT   48   46   49   49                                            \nCONECT   49   48   48   47                                            \nCONECT   50   40                                                      \nCONECT   51   46                                                      \nCONECT   52   53   64                                                 \nCONECT   53   52   54   56                                            \nCONECT   54   53   55   55                                            \nCONECT   55   54   54                                                 \nCONECT   56   53   57                                                 \nCONECT   57   58   58   59   56                                       \nCONECT   58   60   57   57                                            \nCONECT   59   61   61   57                                            \nCONECT   60   62   62   58                                            \nCONECT   61   62   59   59                                            \nCONECT   62   63   60   60   61                                       \nCONECT   63   65   62                                                 \nCONECT   64   52                                                      \nCONECT   65   63                                                      \nCONECT   66   67   68                                                 \nCONECT   67   66                                                      \nCONECT   68   66                                                      \nCONECT   69   88   77                                                 \nCONECT   70   75   94                                                 \nCONECT   71   87   87                                                 \nCONECT   72   95   92                                                 \nCONECT   73   81   84   96   76                                       \nCONECT   74   78   79   77   75                                       \nCONECT   75   74   76   70   80                                       \nCONECT   76   73   82   75                                            \nCONECT   77   69   74   87                                            \nCONECT   78   81   74                                                 \nCONECT   79   88   88   83   74                                       \nCONECT   80   75   85                                                 \nCONECT   81   78   73                                                 \nCONECT   82   83   76                                                 \nCONECT   83   91   91   79   82                                       \nCONECT   84   73   86                                                 \nCONECT   85   87   80                                                 \nCONECT   86   84   90   89                                            \nCONECT   87   77   71   71   85                                       \nCONECT   88   92   69   79   79                                       \nCONECT   89   86   90                                                 \nCONECT   90   86   89                                                 \nCONECT   91   93   83   83                                            \nCONECT   92   72   93   93   88                                       \nCONECT   93   92   92   91                                            \nCONECT   94   70                                                      \nCONECT   95   72                                                      \nCONECT   96   73                                                      \nMASTER        0    0    0    0    0    0    0    0   96    0   96    0\nEND\n","pdb");
+    viewergrid_1772471887587648[0][1].setStyle({"elem": "H", "invert": true},{"stick": {"colorscheme": "greenCarbon", "radius": 0.2}});
+    viewergrid_1772471887587648[0][1].setStyle({"elem": "H"},{"stick": {"color": "white", "radius": 0.12}});
+    viewergrid_1772471887587648[0][1].setStyle({"resn": "HOH", "elem": "O"},{"stick": {"color": "red", "radius": 0.5}});
+    viewergrid_1772471887587648[0][1].addResLabels({"not": {"resn": "HOH"}},{"font": "Arial", "fontSize": 10, "showBackground": false, "fontColor": "black"});
+    viewergrid_1772471887587648[0][1].zoomTo();
+    viewergrid_1772471887587648[0][0].setBackgroundColor("white");
+    viewergrid_1772471887587648[0][1].setBackgroundColor("white");
+viewergrid_1772471887587648[0][1].render();
+viewergrid_1772471887587648[0][0].render();
+});
+</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mor-natext-hidrogenios-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: Visualização: Morfina e Naltrexona nos respectivos sítios
+</figcaption>
+</figure>
+</div>
+</div>
+<p>Em 2015, pesquisadores de Stanford resolveram a estrutura do receptor mu humano em complexo com BU72, um agonista derivado de morfinana. Esta estrutura, designada PDB 5C1M, é essencial porque mostra as mudanças conformacionais que ocorrem quando um agonista se liga ao receptor. Comparada à estrutura inativa, a estrutura ativa com BU72 revela alterações significativas na orientação das hélices transmembranares, particularmente uma rotação e movimento para fora do terceiro loop intracelular, que é crucial para o acoplamento com proteínas G. Essa estrutura foi fundamental para esclarecer como agonistas como BU72 diferem dos antagonistas na forma como estabilizam o receptor.</p>
+<section id="o-mecanismo-do-substituinte-nitrogenado-o-gatilho-vs.-a-trava" class="level3">
+<h3 class="anchored" data-anchor-id="o-mecanismo-do-substituinte-nitrogenado-o-gatilho-vs.-a-trava">O Mecanismo do Substituinte Nitrogenado (O “Gatilho” vs.&nbsp;A “Trava”)</h3>
+<p>A distinção entre agonismo e antagonismo não é apenas sobre ligar, mas sobre como o ligante afeta a rede de ligações de hidrogênio e o volume interno do receptor.</p>
+<p><strong>O Ponto de Ancoragem Universal</strong>: Tanto agonistas quanto antagonistas (como Naloxona e Morfina) formam uma ponte salina essencial entre o nitrogênio protonado do ligante e o resíduo Asp147 (ou <span class="math inline">\(D149^{3.32}\)</span> na numeração humana) na Hélice Transmembrana 3 (TM3).</p>
+<div id="fig-teoria-opiode1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-teoria-opiode1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="teoria-opiode1.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-teoria-opiode1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: Mapa Esquemático das Interações Chave no Sítio de Ligação do Receptor <span class="math inline">\(\mu\)</span>-Opioide (Modo Morfinana)
+</figcaption>
+</figure>
+</div>
+<p><strong>Antagonistas (Grupo Alil/Ciclopropilmetil - ex: Naloxona/Naltrexona)</strong>: O Bloqueio: Substituintes curtos e rígidos, como o grupo alil, criam um conflito estérico. Eles ocupam um espaço que impede o rearranjo necessário das hélices TM6 e TM7.</p>
+<p><strong>Interferência na Rede</strong>: A presença desses grupos impede a rotação do “interruptor” Trp293 (<span class="math inline">\(W^{6.48}\)</span>), mantendo o receptor em um estado inativo onde as hélices não conseguem se afastar para permitir o acoplamento da proteína G.</p>
+<p><strong>Agonistas Volumosos (N-Fenetil - ex: N-fenetilnormorfina)</strong>:A “Alavanca” Hidrofóbica: Ao substituir o grupo metil da morfina por um grupo N-fenetil, a afinidade aumenta drasticamente (14 vezes). Isso ocorre porque o grupo fenetil é longo e flexível o suficiente para alcançar um sub-bolso lipofílico específico (o “Minor Pocket”) localizado entre as hélices TM2 e TM3. Mecanismo de Ativação: Ao ocupar este bolso (interagindo com resíduos como Gln124, His297 e Trp318), o grupo fenetil estabiliza a conformação ativa, puxando as hélices para a posição correta, agindo de forma análoga à cauda da fentanila.</p>
+<div id="cell-fig-fentanil-nfenitil" class="cell" data-execution_count="2">
+<div id="fig-fentanil-nfenitil" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-fentanil-nfenitil-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div id="3dmolviewer_17724718876590593" style="position: relative; width: 900px; height: 500px;">
+        <p id="3dmolwarning_17724718876590593" style="background-color:#ffcccc;color:black">3Dmol.js failed to load for some reason.  Please check your browser console for error messages.<br></p>
+        </div>
+<script>
+
+var loadScriptAsync = function(uri){
+  return new Promise((resolve, reject) => {
+    //this is to ignore the existence of requirejs amd
+    var savedexports, savedmodule;
+    if (typeof exports !== 'undefined') savedexports = exports;
+    else exports = {}
+    if (typeof module !== 'undefined') savedmodule = module;
+    else module = {}
+
+    var tag = document.createElement('script');
+    tag.src = uri;
+    tag.async = true;
+    tag.onload = () => {
+        exports = savedexports;
+        module = savedmodule;
+        resolve();
+    };
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+});
+};
+
+if(typeof $3Dmolpromise === 'undefined') {
+$3Dmolpromise = null;
+  $3Dmolpromise = loadScriptAsync('https://cdn.jsdelivr.net/npm/3dmol@2.5.3/build/3Dmol-min.js');
+}
+
+var viewer_17724718876590593 = null;
+var warn = document.getElementById("3dmolwarning_17724718876590593");
+if(warn) {
+    warn.parentNode.removeChild(warn);
+}
+$3Dmolpromise.then(function() {
+var viewergrid_17724718876590593 = null;
+viewergrid_17724718876590593 = $3Dmol.createViewerGrid(document.getElementById("3dmolviewer_17724718876590593"),{rows: 1, cols: 2, control_all: false},{backgroundColor:"white"});
+viewer_17724718876590593 = viewergrid_17724718876590593[0][0];
+viewergrid_17724718876590593[0][0].zoomTo();viewergrid_17724718876590593[0][1].zoomTo();    viewergrid_17724718876590593[0][0].addModel("ATOM      1  N   TRP M 135      96.126  93.820 167.474  1.00  0.00           N  \nATOM      2  CA  TRP M 135      96.957  92.866 166.752  1.00  0.00           C  \nATOM      3  C   TRP M 135      98.424  93.125 167.063  1.00  0.00           C  \nATOM      4  O   TRP M 135      98.973  94.141 166.607  1.00  0.00           O  \nATOM      5  CB  TRP M 135      96.695  92.994 165.252  1.00  0.00           C  \nATOM      6  CG  TRP M 135      97.421  92.023 164.370  1.00  0.00           C  \nATOM      7  CD1 TRP M 135      98.553  92.264 163.648  1.00  0.00           C  \nATOM      8  CD2 TRP M 135      97.034  90.675 164.072  1.00  0.00           C  \nATOM      9  NE1 TRP M 135      98.909  91.144 162.937  1.00  0.00           N  \nATOM     10  CE2 TRP M 135      97.992  90.155 163.178  1.00  0.00           C  \nATOM     11  CE3 TRP M 135      95.978  89.854 164.481  1.00  0.00           C  \nATOM     12  CZ2 TRP M 135      97.928  88.852 162.690  1.00  0.00           C  \nATOM     13  CZ3 TRP M 135      95.915  88.560 163.993  1.00  0.00           C  \nATOM     14  CH2 TRP M 135      96.885  88.073 163.108  1.00  0.00           C  \nATOM     15  H   TRP M 135      96.073  94.774 167.147  1.00  0.00           H  \nATOM     16  HE1 TRP M 135      99.716  91.063 162.335  1.00  0.00           H  \nATOM     17  N   ASP M 149      93.081  83.302 154.826  1.00  0.00           N  \nATOM     18  CA  ASP M 149      91.661  83.127 155.116  1.00  0.00           C  \nATOM     19  C   ASP M 149      90.806  83.390 153.876  1.00  0.00           C  \nATOM     20  O   ASP M 149      89.893  82.618 153.566  1.00  0.00           O  \nATOM     21  CB  ASP M 149      91.255  84.059 156.261  1.00  0.00           C  \nATOM     22  CG  ASP M 149      89.900  83.713 156.857  1.00  0.00           C  \nATOM     23  OD1 ASP M 149      89.268  82.721 156.433  1.00  0.00           O  \nATOM     24  OD2 ASP M 149      89.459  84.440 157.771  1.00  0.00           O  \nATOM     25  H   ASP M 149      93.595  84.031 155.299  1.00  0.00           H  \nATOM     26  N   TYR M 150      91.083  84.486 153.162  1.00  0.00           N  \nATOM     27  CA  TYR M 150      90.361  84.769 151.923  1.00  0.00           C  \nATOM     28  C   TYR M 150      90.721  83.789 150.807  1.00  0.00           C  \nATOM     29  O   TYR M 150      89.858  83.420 150.003  1.00  0.00           O  \nATOM     30  CB  TYR M 150      90.606  86.211 151.482  1.00  0.00           C  \nATOM     31  CG  TYR M 150      89.796  87.221 152.265  1.00  0.00           C  \nATOM     32  CD1 TYR M 150      88.458  87.447 151.960  1.00  0.00           C  \nATOM     33  CD2 TYR M 150      90.362  87.945 153.307  1.00  0.00           C  \nATOM     34  CE1 TYR M 150      87.705  88.365 152.671  1.00  0.00           C  \nATOM     35  CE2 TYR M 150      89.614  88.868 154.022  1.00  0.00           C  \nATOM     36  CZ  TYR M 150      88.289  89.072 153.699  1.00  0.00           C  \nATOM     37  OH  TYR M 150      87.544  89.987 154.408  1.00  0.00           O  \nATOM     38  H   TYR M 150      91.798  85.124 153.482  1.00  0.00           H  \nATOM     39  HH  TYR M 150      86.801  89.542 154.822  1.00  0.00           H  \nATOM     40  N   TRP M 295      77.624  77.311 155.654  1.00  0.00           N  \nATOM     41  CA  TRP M 295      77.991  78.545 154.948  1.00  0.00           C  \nATOM     42  C   TRP M 295      76.901  79.618 154.967  1.00  0.00           C  \nATOM     43  O   TRP M 295      77.221  80.811 154.932  1.00  0.00           O  \nATOM     44  CB  TRP M 295      78.418  78.233 153.515  1.00  0.00           C  \nATOM     45  CG  TRP M 295      79.755  77.549 153.449  1.00  0.00           C  \nATOM     46  CD1 TRP M 295      79.984  76.227 153.231  1.00  0.00           C  \nATOM     47  CD2 TRP M 295      81.044  78.151 153.646  1.00  0.00           C  \nATOM     48  NE1 TRP M 295      81.332  75.968 153.248  1.00  0.00           N  \nATOM     49  CE2 TRP M 295      82.005  77.131 153.508  1.00  0.00           C  \nATOM     50  CE3 TRP M 295      81.477  79.451 153.918  1.00  0.00           C  \nATOM     51  CZ2 TRP M 295      83.372  77.370 153.630  1.00  0.00           C  \nATOM     52  CZ3 TRP M 295      82.835  79.688 154.037  1.00  0.00           C  \nATOM     53  CH2 TRP M 295      83.766  78.653 153.894  1.00  0.00           C  \nATOM     54  H   TRP M 295      77.390  76.484 155.124  1.00  0.00           H  \nATOM     55  HE1 TRP M 295      81.758  75.065 153.094  1.00  0.00           H  \nATOM     56  N   HIS M 299      77.257  84.252 155.488  1.00  0.00           N  \nATOM     57  CA  HIS M 299      77.089  85.061 154.276  1.00  0.00           C  \nATOM     58  C   HIS M 299      75.918  86.033 154.378  1.00  0.00           C  \nATOM     59  O   HIS M 299      76.045  87.205 154.008  1.00  0.00           O  \nATOM     60  CB  HIS M 299      76.888  84.166 153.055  1.00  0.00           C  \nATOM     61  CG  HIS M 299      78.131  83.481 152.595  1.00  0.00           C  \nATOM     62  ND1 HIS M 299      78.510  82.240 153.054  1.00  0.00           N  \nATOM     63  CD2 HIS M 299      79.085  83.866 151.715  1.00  0.00           C  \nATOM     64  CE1 HIS M 299      79.642  81.887 152.472  1.00  0.00           C  \nATOM     65  NE2 HIS M 299      80.014  82.858 151.657  1.00  0.00           N  \nATOM     66  H   HIS M 299      77.139  83.250 155.438  1.00  0.00           H  \nATOM     67  HD1 HIS M 299      78.003  81.686 153.729  1.00  0.00           H  \nATOM     68  N   TYR M 328      84.028  77.723 159.511  1.00  0.00           N  \nATOM     69  CA  TYR M 328      85.145  76.792 159.565  1.00  0.00           C  \nATOM     70  C   TYR M 328      84.719  75.396 159.989  1.00  0.00           C  \nATOM     71  O   TYR M 328      85.503  74.460 159.812  1.00  0.00           O  \nATOM     72  CB  TYR M 328      86.217  77.278 160.543  1.00  0.00           C  \nATOM     73  CG  TYR M 328      86.901  78.568 160.171  1.00  0.00           C  \nATOM     74  CD1 TYR M 328      87.929  78.596 159.234  1.00  0.00           C  \nATOM     75  CD2 TYR M 328      86.537  79.758 160.779  1.00  0.00           C  \nATOM     76  CE1 TYR M 328      88.559  79.786 158.907  1.00  0.00           C  \nATOM     77  CE2 TYR M 328      87.153  80.942 160.459  1.00  0.00           C  \nATOM     78  CZ  TYR M 328      88.161  80.954 159.529  1.00  0.00           C  \nATOM     79  OH  TYR M 328      88.764  82.147 159.232  1.00  0.00           O  \nATOM     80  H   TYR M 328      83.836  78.317 160.305  1.00  0.00           H  \nATOM     81  HH  TYR M 328      88.551  82.398 158.330  1.00  0.00           H  \nHETATM   82  C10 FEN M 501      86.535  86.811 158.979  1.00  0.00           C  \nHETATM   83  C13 FEN M 501      90.205  87.604 158.527  1.00  0.00           C  \nHETATM   84  C15 FEN M 501      91.219  89.362 160.044  1.00  0.00           C  \nHETATM   85  C17 FEN M 501      93.106  88.838 161.403  1.00  0.00           C  \nHETATM   86  C20 FEN M 501      84.833  83.627 156.399  1.00  0.00           C  \nHETATM   87  C21 FEN M 501      85.963  82.951 155.945  1.00  0.00           C  \nHETATM   88  C22 FEN M 501      86.174  81.613 156.233  1.00  0.00           C  \nHETATM   89  C24 FEN M 501      84.110  81.578 157.456  1.00  0.00           C  \nHETATM   90  C02 FEN M 501      83.941  85.481 154.895  1.00  0.00           C  \nHETATM   91  C03 FEN M 501      82.581  84.855 154.536  1.00  0.00           C  \nHETATM   92  C04 FEN M 501      81.509  85.955 154.399  1.00  0.00           C  \nHETATM   93  C06 FEN M 501      85.518  86.098 156.746  1.00  0.00           C  \nHETATM   94  C07 FEN M 501      86.896  86.376 156.117  1.00  0.00           C  \nHETATM   95  C08 FEN M 501      87.719  87.374 156.935  1.00  0.00           C  \nHETATM   96  C11 FEN M 501      85.641  85.805 158.249  1.00  0.00           C  \nHETATM   97  C12 FEN M 501      88.799  87.692 159.108  1.00  0.00           C  \nHETATM   98  C14 FEN M 501      91.239  88.065 159.557  1.00  0.00           C  \nHETATM   99  C16 FEN M 501      92.162  89.745 160.974  1.00  0.00           C  \nHETATM  100  C18 FEN M 501      93.126  87.553 160.929  1.00  0.00           C  \nHETATM  101  C19 FEN M 501      92.187  87.161 159.995  1.00  0.00           C  \nHETATM  102  C23 FEN M 501      85.242  80.928 156.992  1.00  0.00           C  \nHETATM  103  C25 FEN M 501      83.914  82.920 157.158  1.00  0.00           C  \nHETATM  104  N05 FEN M 501      84.749  85.064 156.006  1.00  0.00           N  \nHETATM  105  N09 FEN M 501      87.848  86.887 158.323  1.00  0.00           N  \nHETATM  106  O01 FEN M 501      84.302  86.379 154.159  1.00  0.00           O  \nHETATM  107  H09 FEN M 501      88.216  85.947 158.278  1.00  0.00           H  \nEND\n","pdb");
+    viewergrid_17724718876590593[0][0].setStyle({"elem": "H", "invert": true},{"stick": {"colorscheme": "cyanCarbon", "radius": 0.2}});
+    viewergrid_17724718876590593[0][0].setStyle({"elem": "H"},{"stick": {"color": "white", "radius": 0.12}});
+    viewergrid_17724718876590593[0][0].setStyle({"resn": "HOH", "elem": "O"},{"stick": {"color": "red", "radius": 0.5}});
+    viewergrid_17724718876590593[0][0].addResLabels({"not": {"resn": "HOH"}},{"font": "Arial", "fontSize": 10, "showBackground": false, "fontColor": "black"});
+    viewergrid_17724718876590593[0][0].zoomTo();
+    viewergrid_17724718876590593[0][1].addModel("COMPND    G:\\Meu Drive\\LIVRO_QF_maravilha\\my-book\\PDBs-mor\\site_morfina.pdb \nAUTHOR    GENERATED BY OPEN BABEL 3.1.1\nMODEL        1\nATOM      1  N   TRP A 133      94.649  93.484 167.041  1.00  0.00           N\nATOM      2  CA  TRP A 133      95.565  92.636 166.291  1.00  0.00           C\nATOM      3  C   TRP A 133      96.988  92.924 166.745  1.00  0.00           C\nATOM      4  O   TRP A 133      97.496  94.028 166.485  1.00  0.00           O\nATOM      5  CB  TRP A 133      95.425  92.877 164.794  1.00  0.00           C\nATOM      6  CG  TRP A 133      96.355  92.044 163.968  1.00  0.00           C\nATOM      7  CD1 TRP A 133      97.600  92.392 163.529  1.00  0.00           C\nATOM      8  CD2 TRP A 133      96.115  90.717 163.482  1.00  0.00           C\nATOM      9  NE1 TRP A 133      98.148  91.363 162.799  1.00  0.00           N\nATOM     10  CE2 TRP A 133      97.257  90.324 162.756  1.00  0.00           C\nATOM     11  CE3 TRP A 133      95.044  89.822 163.591  1.00  0.00           C\nATOM     12  CZ2 TRP A 133      97.359  89.079 162.140  1.00  0.00           C\nATOM     13  CZ3 TRP A 133      95.147  88.583 162.977  1.00  0.00           C\nATOM     14  CH2 TRP A 133      96.298  88.224 162.263  1.00  0.00           C\nATOM     15  H   TRP A 133      94.348  94.359 166.637  1.00  0.00           H\nATOM     16  HE1 TRP A 133      99.060  91.372 162.365  1.00  0.00           H\nATOM     17  N   ASP A 147      93.746  83.686 154.694  1.00  0.00           N\nATOM     18  CA  ASP A 147      92.501  82.949 154.958  1.00  0.00           C\nATOM     19  C   ASP A 147      91.555  82.903 153.743  1.00  0.00           C\nATOM     20  O   ASP A 147      90.813  81.941 153.563  1.00  0.00           O\nATOM     21  CB  ASP A 147      91.833  83.606 156.176  1.00  0.00           C\nATOM     22  CG  ASP A 147      90.464  83.010 156.534  1.00  0.00           C\nATOM     23  OD1 ASP A 147      90.337  82.578 157.702  1.00  0.00           O\nATOM     24  OD2 ASP A 147      89.467  83.500 155.964  1.00  0.00           O\nATOM     25  H   ASP A 147      94.489  83.605 155.378  1.00  0.00           H\nATOM     26  N   TYR A 148      91.697  83.862 152.825  1.00  0.00           N\nATOM     27  CA  TYR A 148      90.913  83.944 151.595  1.00  0.00           C\nATOM     28  C   TYR A 148      91.305  82.845 150.613  1.00  0.00           C\nATOM     29  O   TYR A 148      90.433  82.234 149.984  1.00  0.00           O\nATOM     30  CB  TYR A 148      91.069  85.319 150.944  1.00  0.00           C\nATOM     31  CG  TYR A 148      90.173  86.394 151.528  1.00  0.00           C\nATOM     32  CD1 TYR A 148      90.624  87.219 152.547  1.00  0.00           C\nATOM     33  CD2 TYR A 148      88.879  86.586 151.054  1.00  0.00           C\nATOM     34  CE1 TYR A 148      89.817  88.208 153.084  1.00  0.00           C\nATOM     35  CE2 TYR A 148      88.061  87.575 151.586  1.00  0.00           C\nATOM     36  CZ  TYR A 148      88.538  88.381 152.602  1.00  0.00           C\nATOM     37  OH  TYR A 148      87.737  89.367 153.141  1.00  0.00           O\nATOM     38  H   TYR A 148      92.393  84.564 153.032  1.00  0.00           H\nATOM     39  HH  TYR A 148      86.950  88.969 153.520  1.00  0.00           H\nATOM     40  N   TRP A 293      77.942  77.701 155.980  1.00  0.00           N\nATOM     41  CA  TRP A 293      78.396  78.874 155.244  1.00  0.00           C\nATOM     42  C   TRP A 293      77.353  79.970 155.085  1.00  0.00           C\nATOM     43  O   TRP A 293      77.731  81.135 154.937  1.00  0.00           O\nATOM     44  CB  TRP A 293      78.895  78.469 153.850  1.00  0.00           C\nATOM     45  CG  TRP A 293      80.338  78.057 153.830  1.00  0.00           C\nATOM     46  CD1 TRP A 293      80.846  76.846 153.443  1.00  0.00           C\nATOM     47  CD2 TRP A 293      81.461  78.856 154.221  1.00  0.00           C\nATOM     48  NE1 TRP A 293      82.215  76.849 153.565  1.00  0.00           N\nATOM     49  CE2 TRP A 293      82.616  78.070 154.041  1.00  0.00           C\nATOM     50  CE3 TRP A 293      81.601  80.162 154.703  1.00  0.00           C\nATOM     51  CZ2 TRP A 293      83.892  78.547 154.325  1.00  0.00           C\nATOM     52  CZ3 TRP A 293      82.869  80.631 154.989  1.00  0.00           C\nATOM     53  CH2 TRP A 293      83.997  79.828 154.794  1.00  0.00           C\nATOM     54  H   TRP A 293      77.304  77.057 155.534  1.00  0.00           H\nATOM     55  HE1 TRP A 293      82.826  76.077 153.340  1.00  0.00           H\nATOM     56  N   HIS A 297      77.901  84.432 155.610  1.00  0.00           N\nATOM     57  CA  HIS A 297      77.740  85.192 154.373  1.00  0.00           C\nATOM     58  C   HIS A 297      76.586  86.179 154.469  1.00  0.00           C\nATOM     59  O   HIS A 297      76.696  87.317 153.998  1.00  0.00           O\nATOM     60  CB  HIS A 297      77.550  84.247 153.189  1.00  0.00           C\nATOM     61  CG  HIS A 297      78.839  83.747 152.623  1.00  0.00           C\nATOM     62  ND1 HIS A 297      79.729  84.571 151.969  1.00  0.00           N\nATOM     63  CD2 HIS A 297      79.405  82.517 152.637  1.00  0.00           C\nATOM     64  CE1 HIS A 297      80.783  83.869 151.595  1.00  0.00           C\nATOM     65  NE2 HIS A 297      80.610  82.619 151.987  1.00  0.00           N\nATOM     66  H   HIS A 297      77.717  83.439 155.623  1.00  0.00           H\nATOM     67  HE2 HIS A 297      81.259  81.861 151.833  1.00  0.00           H\nATOM     68  HD1 HIS A 297      79.596  85.558 151.802  1.00  0.00           H\nATOM     69  N   TYR A 326      84.121  77.594 159.784  1.00  0.00           N\nATOM     70  CA  TYR A 326      85.338  76.786 159.810  1.00  0.00           C\nATOM     71  C   TYR A 326      85.020  75.354 160.235  1.00  0.00           C\nATOM     72  O   TYR A 326      85.781  74.441 159.917  1.00  0.00           O\nATOM     73  CB  TYR A 326      86.375  77.429 160.744  1.00  0.00           C\nATOM     74  CG  TYR A 326      86.849  78.786 160.263  1.00  0.00           C\nATOM     75  CD1 TYR A 326      87.945  78.871 159.382  1.00  0.00           C\nATOM     76  CD2 TYR A 326      86.165  79.954 160.657  1.00  0.00           C\nATOM     77  CE1 TYR A 326      88.353  80.123 158.883  1.00  0.00           C\nATOM     78  CE2 TYR A 326      86.562  81.205 160.149  1.00  0.00           C\nATOM     79  CZ  TYR A 326      87.650  81.286 159.258  1.00  0.00           C\nATOM     80  OH  TYR A 326      87.997  82.487 158.742  1.00  0.00           O\nATOM     81  H   TYR A 326      84.238  78.598 159.777  1.00  0.00           H\nATOM     82  HH  TYR A 326      88.909  82.441 158.349  1.00  0.00           H\nHETATM   84  O1  NFE     1      84.667  89.015 154.825  1.00  0.00           O\nHETATM   85  O2  NFE     1      84.057  90.667 156.986  1.00  0.00           O\nHETATM   86  O3  NFE     1      82.404  88.487 152.980  1.00  0.00           O\nHETATM   87  N1  NFE     1      87.235  84.871 156.970  1.00  0.00           N\nHETATM   88  C1  NFE     1      85.789  87.372 156.132  1.00  0.00           C\nHETATM   89  C2  NFE     1      85.641  86.755 157.554  1.00  0.00           C\nHETATM   90  C3  NFE     1      85.803  85.203 157.422  1.00  0.00           C\nHETATM   91  C4  NFE     1      85.519  88.910 156.006  1.00  0.00           C\nHETATM   92  C5  NFE     1      87.090  86.963 155.395  1.00  0.00           C\nHETATM   93  C6  NFE     1      84.660  86.820 155.329  1.00  0.00           C\nHETATM   94  C7  NFE     1      84.682  84.581 156.507  1.00  0.00           C\nHETATM   95  C8  NFE     1      87.466  85.477 155.581  1.00  0.00           C\nHETATM   96  C9  NFE     1      84.138  85.528 155.428  1.00  0.00           C\nHETATM   97  C10 NFE     1      84.812  89.492 157.272  1.00  0.00           C\nHETATM   98  C11 NFE     1      84.325  87.218 158.160  1.00  0.00           C\nHETATM   99  C12 NFE     1      84.082  87.806 154.567  1.00  0.00           C\nHETATM  100  C13 NFE     1      83.931  88.480 157.986  1.00  0.00           C\nHETATM  101  C14 NFE     1      88.245  85.307 158.044  1.00  0.00           C\nHETATM  102  C15 NFE     1      83.029  85.222 154.613  1.00  0.00           C\nHETATM  103  C16 NFE     1      82.985  87.523 153.749  1.00  0.00           C\nHETATM  104  C17 NFE     1      82.477  86.209 153.764  1.00  0.00           C\nHETATM  105  H18 NFE     1      84.666  91.346 156.656  1.00  0.00           H\nHETATM  106  H19 NFE     1      82.865  89.329 153.160  1.00  0.00           H\nHETATM  107  HN  NFE     1      87.362  83.846 156.879  1.00  0.00           H\nHETATM  108  C18 NFE     1      89.120  86.558 157.822  1.00  0.00           C\nHETATM  109  C19 NFE     1      90.055  86.841 158.975  1.00  0.00           C\nHETATM  110  C20 NFE     1      90.700  85.797 159.665  1.00  0.00           C\nHETATM  111  C21 NFE     1      91.589  86.090 160.707  1.00  0.00           C\nHETATM  112  C22 NFE     1      91.840  87.426 161.059  1.00  0.00           C\nHETATM  113  C23 NFE     1      91.213  88.470 160.365  1.00  0.00           C\nHETATM  114  C24 NFE     1      90.320  88.178 159.325  1.00  0.00           C\nHETATM    1  O1  HOH     1      80.406  87.095 151.565  1.00  0.00           O\nHETATM    2  H1  HOH     1      79.909  87.542 150.866  1.00  0.00           H\nHETATM    3  H2  HOH     1      80.926  87.775 152.016  1.00  0.00           H\nEND\n","pdb");
+    viewergrid_17724718876590593[0][1].setStyle({"elem": "H", "invert": true},{"stick": {"colorscheme": "greenCarbon", "radius": 0.2}});
+    viewergrid_17724718876590593[0][1].setStyle({"elem": "H"},{"stick": {"color": "white", "radius": 0.12}});
+    viewergrid_17724718876590593[0][1].setStyle({"resn": "HOH", "elem": "O"},{"stick": {"color": "red", "radius": 0.5}});
+    viewergrid_17724718876590593[0][1].addResLabels({"not": {"resn": "HOH"}},{"font": "Arial", "fontSize": 10, "showBackground": false, "fontColor": "black"});
+    viewergrid_17724718876590593[0][1].zoomTo();
+    viewergrid_17724718876590593[0][0].setBackgroundColor("white");
+    viewergrid_17724718876590593[0][1].setBackgroundColor("white");
+viewergrid_17724718876590593[0][1].render();
+viewergrid_17724718876590593[0][0].render();
+});
+</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fentanil-nfenitil-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9: Visualização: Fentanil e N-fenetilnormorfina nos respectivos sítios. Visuzalizar que não há necessidade de OH fenólico na Fentanila
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="o-modo-de-ligação-diferencial-morfina-vs.-fentanila" class="level3">
+<h3 class="anchored" data-anchor-id="o-modo-de-ligação-diferencial-morfina-vs.-fentanila">O Modo de Ligação Diferencial (Morfina vs.&nbsp;Fentanila)</h3>
+<p><strong>Morfina</strong>: A Dependência da Água e da His297 (Forma “O”)Geometria: A morfina adota uma configuração elíptica compacta (“O”) no bolso de ligação.</p>
+<p><strong>O Papel do Fenol</strong>: A hidroxila fenólica no carbono 3 é crítica. Ela forma uma ponte de hidrogênio mediada por moléculas de água com o resíduo His297 (<span class="math inline">\(H^{6.52}\)</span>) na TM6. Essa rede de água conecta a ligação do fármaco diretamente ao movimento da hélice 6.</p>
+<div id="fig-sem-oh-opioid" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sem-oh-opioid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="sem-oh-opioid.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sem-oh-opioid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: Representação Esquemática 2D da Interação Diferencial no Sítio de Ligação. Este diagrama esquemático em 2D (não uma representação tridimensional real) ilustra as interações-chave no bolso de ligação do receptor <span class="math inline">\(\mu\)</span>-opioide. A Dependência do Fenol (Verde): A região destacada em verde representa a interação crítica para morfínicos clássicos, envolvendo a His297 e uma molécula de água estrutural. A fentanila dispensa esse grupo pois ativa o receptor por outro mecanismo. O “Interruptor” Molecular (Amarelo): A região em amarelo mostra o local de interação com o resíduo Trp295. Agonistas (ex: Fentanila): O anel de anilina da fentanila faz um empilhamento pi-pi direto com o Trp295, estabilizando o estado ativo. O grupo N-fenetil acessa um sub-bolso lipofílico adjacente, incrementando drasticamente a atividade (em comparação à Meperidina, por exemplo). Antagonistas (ex: Naloxona): Grupos curtos como alil e ciclopropil também se alojam nesta região hidrofóbica, mas impedindo a mudança conformacional necessária para a ativação (bloqueio do receptor).
+</figcaption>
+</figure>
+</div>
+<p><strong>Vulnerabilidade</strong>: Sem essa hidroxila (e sem a rede de água resultante), a morfina perde a capacidade de puxar a TM6 e estabilizar o estado ativo, perdendo eficácia.</p>
+<p><strong>Fentanila</strong>: Acesso Direto ao “Toggle Switch” (Forma “Y”). A fentanila adota uma conformação estendida em forma de “Y”. Ela penetra mais profundamente no receptor do que a morfina.</p>
+<p><strong>Independência do Fenol</strong>: A fentanila não precisa da rede de água da His297. Em vez disso, ela usa seu anel N-anilina para formar uma interação direta (empilhamento <span class="math inline">\(\pi-\pi\)</span>) com o resíduo Trp295 (<span class="math inline">\(W^{6.48}\)</span>), que é o “interruptor molecular” (rotamer toggle switch) crucial para a ativação</p>
+<p><strong>O “Minor Pocket”</strong>: A cadeia N-fenetil da fentanila (a “perna” do Y) ocupa o bolso hidrofóbico menor entre TM2 e TM3 (resíduos Trp135 <a href="#fig-fentanil-nfenitil" class="quarto-xref">Figure&nbsp;9</a>), criando uma ancoragem fortíssima que a morfina (por ser curta) não consegue alcançar.</p>
+<p>A fentanila ativa o receptor “empurrando” diretamente o interruptor W295 e ancorando-se no bolso menor, tornando a hidroxila fenólica obsoleta.</p>
+</section>
+</section>
+<section id="perspectivas-futuras" class="level2">
+<h2 class="anchored" data-anchor-id="perspectivas-futuras">Perspectivas futuras</h2>
+<p>Embora os opioides permaneçam como o padrão-ouro para dor severa, sua utilidade clínica é severamente limitada por cinco desafios farmacológicos dissociáveis: depressão respiratória (a principal causa de letalidade), tolerância analgésica paradoxalmente acompanhada de hiperalgesia induzida por opioides (OIH), potencial de abuso, toxicidade gastrointestinal e dependência física. Os mecanismos moleculares desses efeitos adversos são distintos da via analgésica; por exemplo, a depressão respiratória envolve vias específicas de sinalização G<span class="math inline">\(\alpha\)</span>q-mGluR5-NMDA e isoformas de PKC diferentes das que mediam a analgesia, criando um risco fatal onde a tolerância à dor se desenvolve mais rápido do que a tolerância à depressão respiratória. Além disso, a hiperalgesia é exacerbada por neuroinflamação mediada por células gliais e tráfego de receptores NMDA, fenômenos que ocorrem independentemente da sinalização clássica do receptor opioide mu (MOR).</p>
+<p>Para superar essas falhas, o design racional de um “analgésico ideal” baseado em estratégias de sinalização tendenciosa (biased signaling) e multialvo. As abordagens mais promissoras incluem o desenvolvimento de agonistas que favorecem o acoplamento à proteína G em detrimento da <span class="math inline">\(\beta\)</span>-arrestina (para reduzir tolerância e efeitos respiratórios), o uso de agonistas parciais para estabelecer um teto de toxicidade, e a criação de ligantes bifuncionais, como o AT-121, que ativam simultaneamente os receptores MOR e NOP (nociceptina), anulando os efeitos de recompensa e dependência. Outras estratégias de química medicinal citadas envolvem agonistas dependentes de pH (como o NFEPP) que atuam seletivamente em tecidos inflamados periféricos, evitando o sistema nervoso central. O documento conclui que, apesar da existência de candidatos pré-clínicos robustos que dissociam a analgesia dos efeitos adversos, a tradução clínica permanece lenta devido a barreiras regulatórias e complexidades farmacocinéticas.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
